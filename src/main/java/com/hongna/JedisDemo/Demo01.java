@@ -12,6 +12,9 @@ public class Demo01 {
         Jedis jedis = new Jedis("192.168.138.128",6379 );
         String pong = jedis.ping();
         System.out.println(pong);
+
+        
+
     }
 
 
